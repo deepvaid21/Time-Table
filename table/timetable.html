@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Time-Table</title>
+    <style>
+        table,th,td{
+            padding: 2px;
+            border: 2px solid ;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table{
+            width: 100%;
+            height: 100%;
+        }
+        #colg{
+            background-color: rgb(212, 12, 129);
+        }
+        td:hover{
+            background-color: rgb(206, 123, 21);
+        }
+        th{
+            background-color: rgb(19, 155, 155);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup id="colg"> <col span="1">
+        
+        <th>Time/Days</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+
+        <tr>
+            <td>8:00 - 9:00AM</td>
+            <td>English</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td rowspan="2">Social Science</td>
+            <td>English</td>
+            <td>Computer</td>
+            <td>Math</td>
+        </tr>
+
+        <tr>
+            <td>9:00-10:00AM</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>English</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>English</td>
+        </tr>
+
+        <tr style="background-color: rgb(165, 157, 157);">
+            <td >10:00-10:15AM</td>
+            <td colspan="7"><strong>Break</strong></td>
+        </tr>
+
+        <tr>
+            <td>10:15-11:15AM</td>
+            <td>Math</td>
+            <td>Social Science</td>
+            <td rowspan="2">Science</td>
+            <td>english</td>
+            <td>Math</td>
+            <td>Computer</td>
+            <td rowspan="2">Science</td>
+        </tr>
+
+        <tr>
+            <td>11:15-12:15PM</td>
+            <td>Hindi</td>
+            <td>English</td>
+            <td>Social Science</td>
+            <td>Hindi</td>
+            <td>English</td>
+        </tr>
+
+        <tr  style="background-color: rgb(171, 207, 111);">
+            <td>12:15-1:00PM</td>
+            <td colspan="7"><strong>Lunch</strong></td>
+        </tr>
+
+        <tr>
+            <td>1:00-2:00PM</td>
+            <td>History</td>
+            <td>Hindi</td>
+            <td>English</td>
+            <td>Science</td>
+            <td>Social Science</td>
+            <td>Hindi</td>
+            <td>English</td>
+        </tr>
+
+        
+
+        <tr>
+            <td>2:00-3:00PM</td>
+            <td>Social Studies</td>
+            <td>Maths</td>
+            <td>Hindi</td>
+
+            <td>History</td>
+            <td>Math</td>
+            <td>Hindi</td>
+        </tr>
+
+    </colgroup>
+    </table>
+</body>
+</html>
+
